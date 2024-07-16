@@ -1,0 +1,48 @@
+.footer {
+    width: 100%; /* Cover full width of containing element */
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: x-large;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Example max-width for content alignment */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 20px; /* Example padding adjustment */
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    
+    
+  }
+  .social-icons img:hover{
+    background-color: white;
+    border: 2px solid white;
+    
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 4rem; /* Adjust size as needed */
+    height: 4rem;
+    border-radius: 100%;
+  }
+  @media (max-width:768px) {
+    .social-icons img {
+    width: 2rem;
+    height: 2rem;
+    }
+  }
+  

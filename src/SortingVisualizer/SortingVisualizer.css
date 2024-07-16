@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh; /* Ensure minimum viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-image: linear-gradient(
+    to bottom right,
+    #10b0c2,
+    #b8bdc3,
+    #8e8e94,
+    #4682a8,
+    #0a4e59
+  );
+  padding: 20px; /* Example padding adjustment */
+}
